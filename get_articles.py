@@ -31,7 +31,7 @@ def retrieve_articles(search_query):
             a_tag = title_el.find('a')
             title = a_tag.get_text()
             link = a_tag.get('href')
-            res.append({title:link})
+            res.append({'title':title, 'link':link})
     else:
         return f"Failed to retrieve the webpage: Status code {response.status_code}"
     
