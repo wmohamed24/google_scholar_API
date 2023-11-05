@@ -1,7 +1,10 @@
 from flask import Flask, request, jsonify
 from get_articles import retrieve_articles
+from flask_cors import CORS
+
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route('/get_articles', methods=['GET'])
 def get_articles():
