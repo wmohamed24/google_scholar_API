@@ -1,5 +1,8 @@
 # Google Scholar API
 
+![Google Scholar API Banner](https://opengraph.githubassets.com/d907a6a557cb1470935100093e88f8874ea97a6de25dbaae0b3b0cec8cb8477e/wmohamed24/google_scholar_API)
+
+
 This repository contains a simple Flask-based API that allows users to retrieve article data from Google Scholar based on a search query.
 
 ## Features
