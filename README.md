@@ -5,14 +5,14 @@ This repository contains a simple Flask-based API that allows users to retrieve 
 ## Features
 
 - **Simple API Endpoint**: The API provides a single GET endpoint `/get_articles` which accepts a search query and returns a list of articles.
-- **Hosted API Endpoint**: The API is hosted and can be accessed remotely at `https://wmohamed.pythonanywhere.com/get_articles?search_query=search%20query`. Replace `search%20query` with your desired search term, URL encoded.
+- **Hosted API Endpoint**: The API is hosted and can be accessed remotely at `https://wmohamed.pythonanywhere.com/.
 - **Web Scraping**: Utilizes `requests` and `BeautifulSoup` to scrape Google Scholar search results.
 
 ## How to Use
 
 To use the hosted API, simply make a GET request to the following URL with your search query:
 - https://wmohamed.pythonanywhere.com/get_articles?search_query=your_search_term
-Replace `your_search_term` with the search term you wish to query, ensuring it is URL encoded.
+- Replace `your_search_term` with the search term you wish to query, ensuring it is URL encoded.
 
 For local development:
 
